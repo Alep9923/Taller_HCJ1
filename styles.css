@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: dodgerblue;
+}
+
+.contador {
+    font-size: 3rem;
+    color: rgb(3, 0, 0);
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.maximo {
+    background-color: rgb(16, 0, 236);
+    color: rgb(0, 0, 0);
+}
